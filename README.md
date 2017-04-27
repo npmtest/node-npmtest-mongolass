@@ -1,6 +1,6 @@
 # npmtest-mongolass
 
-#### test coverage for  [mongolass (v2.4.5)](https://github.com/mongolass/mongolass#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongolass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongolass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongolass.svg)](https://travis-ci.org/npmtest/node-npmtest-mongolass)
+#### basic test coverage for  [mongolass (v2.4.5)](https://github.com/mongolass/mongolass#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongolass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongolass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongolass.svg)](https://travis-ci.org/npmtest/node-npmtest-mongolass)
 
 #### Elegant MongoDB driver for Node.js.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mongolass/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mongolass/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mongolass/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mongolass/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongolass/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongolass/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mongolass/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mongolass/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongolass/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongolass/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mongolass/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mongolass/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
     "scripts": {
         "test": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
     },
-    "version": "2.4.5"
+    "version": "2.4.5",
+    "bin": {}
 }
 ```
 
